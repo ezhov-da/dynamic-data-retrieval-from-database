@@ -5,6 +5,6 @@
 
 ## Подключение к БД
 
-URL: `jdbc:h2:~/repository/dynamic-data-retrieval-from-database`  
+URL: `jdbc:h2:~/repository/dynamic-data-retrieval-from-database/test-db.mv.db`  
 Логин: `sa`  
 Пароль: `sa`  

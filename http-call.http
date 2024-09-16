@@ -1,0 +1,5 @@
+GET http://localhost:8080/api/dyn-s?selName=test&selMap=name,asdasasd
+
+###
+
+GET http://localhost:8080/api/dyn-s?selName=test-where&selMap=name,asdasasd&selFil=qqq

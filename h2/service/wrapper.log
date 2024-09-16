@@ -1,0 +1,58 @@
+STATUS | wrapper  | 2023/12/18 16:40:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/12/18 16:40:43 | Launching a JVM...
+INFO   | jvm 1    | 2023/12/18 16:40:45 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/12/18 16:40:45 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/12/18 16:40:45 | 
+INFO   | jvm 1    | 2023/12/18 16:40:45 | 
+INFO   | jvm 1    | 2023/12/18 16:40:45 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           could not be loaded:
+INFO   | jvm 1    | 2023/12/18 16:40:45 |             C:\Users\DEzhov\allinone\tools\rocket-action\programs\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           Reported cause:
+INFO   | jvm 1    | 2023/12/18 16:40:45 |             C:\Users\DEzhov\allinone\tools\rocket-action\programs\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/12/18 16:40:45 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/12/18 16:40:45 | 
+INFO   | jvm 1    | 2023/12/18 16:40:45 | WrapperSimpleApp: Unable to locate the class org.h2.tools.Server: java.lang.ClassNotFoundException: org.h2.tools.Server
+INFO   | jvm 1    | 2023/12/18 16:40:45 | 
+INFO   | jvm 1    | 2023/12/18 16:40:45 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2023/12/18 16:40:45 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2023/12/18 16:40:45 | 
+INFO   | jvm 1    | 2023/12/18 16:40:45 | Where:
+INFO   | jvm 1    | 2023/12/18 16:40:45 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2023/12/18 16:40:45 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2023/12/18 16:40:45 |                   application.
+STATUS | wrapper  | 2023/12/18 16:40:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2023/12/18 16:40:50 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/12/18 16:40:50 | Launching a JVM...
+INFO   | jvm 1    | 2023/12/18 16:40:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/12/18 16:40:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/12/18 16:40:51 | 
+INFO   | jvm 1    | 2023/12/18 16:40:51 | 
+INFO   | jvm 1    | 2023/12/18 16:40:51 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           could not be loaded:
+INFO   | jvm 1    | 2023/12/18 16:40:51 |             C:\Users\DEzhov\allinone\tools\rocket-action\programs\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           Reported cause:
+INFO   | jvm 1    | 2023/12/18 16:40:51 |             C:\Users\DEzhov\allinone\tools\rocket-action\programs\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2023/12/18 16:40:51 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2023/12/18 16:40:51 | 
+INFO   | jvm 1    | 2023/12/18 16:40:51 | WrapperSimpleApp: Unable to locate the class org.h2.tools.Server: java.lang.ClassNotFoundException: org.h2.tools.Server
+INFO   | jvm 1    | 2023/12/18 16:40:51 | 
+INFO   | jvm 1    | 2023/12/18 16:40:51 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2023/12/18 16:40:51 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2023/12/18 16:40:51 | 
+INFO   | jvm 1    | 2023/12/18 16:40:51 | Where:
+INFO   | jvm 1    | 2023/12/18 16:40:51 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2023/12/18 16:40:51 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2023/12/18 16:40:51 |                   application.
+STATUS | wrapper  | 2023/12/18 16:40:53 | <-- Wrapper Stopped

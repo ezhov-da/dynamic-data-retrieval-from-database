@@ -1,5 +1,14 @@
-GET http://localhost:8080/api/dyn-s?selName=test&selMap=name,asdasasd
+@host=http://localhost:8080
+
+# Получение всех данных
+GET {{host}}/api/dyn-s?selName=select-customer
 
 ###
 
-GET http://localhost:8080/api/dyn-s?selName=test-where&selMap=name,asdasasd&selFil=qqq
+# Получение данных с фильтрацией
+GET {{host}}/api/dyn-s?selName=search-customer&selMap=firstName,city&selFil=Pao
+
+###
+
+# Получение данных группового запроса
+GET {{host}}/api/dyn-s?selName=sum-of-customer&selMap=firstName,total

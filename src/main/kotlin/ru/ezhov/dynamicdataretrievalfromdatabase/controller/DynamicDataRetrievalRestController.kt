@@ -14,12 +14,12 @@ class DynamicDataRetrievalRestController(
     @GetMapping
     fun get(
         @RequestParam("selName") selName: String,
-        @RequestParam("selMap") selMap: String,
+        @RequestParam("selMap", required = false) selMap: String?,
         @RequestParam("selFil", required = false) selFil: String?,
     ): List<Map<String, Any?>> =
         dynamicDataRetrievalApplication.get(
             selName,
-            selMap.split(","),
-            selFil.orEmpty().split(",").filter { it.isNotBlank() },
+            selMap.orEmpty().split(",").map { it.trim() }.filter { it.isNotBlank() },
+            selFil.orEmpty().split(",").map { it.trim() }.filter { it.isNotBlank() },
         )
 }
